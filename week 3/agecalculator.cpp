@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int years, days;
+
+    cout << "Enter your age in years: ";
+    cin >> years;
+
+    // Calculation based on 365 days per year
+    days = years * 365;
+
+    cout << "Your age in days is approximately " << days << " days." << endl;
+
+    return 0;
+}
