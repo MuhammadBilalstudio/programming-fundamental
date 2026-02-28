@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string name = "Muhammad Bilal";
+    int rollNumber = 817;
+    float aggregate = 86.5;
+    char section = 'A';
+
+    cout << "----- Student Information -----" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Roll Number: " << rollNumber << endl;
+    cout << "Aggregate: " << aggregate << endl;
+    cout << "Section: " << section << endl;
+
+    return 0;
+}
