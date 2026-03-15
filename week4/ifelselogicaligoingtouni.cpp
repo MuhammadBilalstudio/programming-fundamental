@@ -10,7 +10,8 @@ int main() {
         cout << "You are also going!" << endl;
     } else {
         cout << "You are not going!" << endl;
-    }
+    
 
+    
     return 0;
 }
